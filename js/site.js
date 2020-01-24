@@ -13,7 +13,7 @@ $(document).ready(function () {
                     arr = _.rest(arr, sentenceCount);
                     output = output + "<p>" + firstSentences.join(" ") + "</p>";
                 }
-                $('.text').html(output);
+                $('#text').html(output);
             });
 
     }
@@ -25,7 +25,7 @@ $(document).ready(function () {
         })
     }
 
-    toggleIpsum('#reload', 5, 5);
-    generateIpsum(5, 5);
+    toggleIpsum('#reload', 8, 8);
+    generateIpsum(8, 8);
 
 });
